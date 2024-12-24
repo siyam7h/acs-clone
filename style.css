@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #e2e2e7;
+}
+img {
+    width: 100%;
+    height: auto;
+}
+.box-shadow{
+    box-shadow: 
+    3px 3px 12px #868686,
+    -3px -3px 12px #deecff
+    ;
+    border: 0.1px solid #deecff;
+}
+/* Navbar */
+.nav {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 1000px;
+}
+.nav .logo,
+.nav .right {
+    padding: 16px;
+    margin: 2px;
+}
+.nav .logo {
+    width: 5em;
+    overflow: hidden;
+}
+/* Hero section */
+.hero-img {
+    padding: 10px;
+    border-radius: 10px;
+}
+/* main */
+
+.container {
+    width: 1000px;
+    text-align: center;
+    margin: auto;
+}
+.course-item  {
+    display: flex;
+    text-align: left;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 10px;
+}
+.course-item .img-container,
+.course-item .des,
+.course-item .buttons {
+    max-width: 100%;
+    width: 33%;
+}
+.img-container {
+    border-radius: 15px;
+    overflow: hidden;
+    height: max-content;
+    justify-content: center;
+}
+.course-item .des i{
+    color: rgb(13, 141, 13);
+}
+/* btton */
+button {
+    text-align: center;
+    padding: 1em;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    margin: 5px;
+    display: block;
+    width: 200px;
+    background-color: inherit;
+}
+button:hover {
+    box-shadow: 
+    -3px -3px 6px #eff1f6 inset,
+    3px 3px 6px #868686 inset;
+}
